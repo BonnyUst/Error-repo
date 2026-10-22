@@ -1,0 +1,133 @@
+Explore incident information, alarm chronology and KPI observations from the synthetic dataset. Three validated showcases also support the complete offline analysis workflow.
+
+Live Gemini Mode: actual supplied synthetic evidence and local RAG are sent to the selected model only after consent and Run Analysis. No authored answers are supplied to live inference. Human review remains mandatory.
+
+Recommendation live inference remains unverified. Schema validity and resolved citation IDs do not establish semantic groundedness; inspect claims, uncertainty and remediation safety before deciding.
+
+Incident summary
+INC-1004 — Optical backhaul degradation — Offline showcase
+
+Device: RTR-W-022-01 · Region: WEST · Service impact: partial_outage
+
+Analysis workflow
+Incident Selected → Analysis Running → Human Review → Completed
+
+Current state: Human Review
+
+Run Analysis uses the selected live model and pauses for human review. Failed operations are not replayed by rerunning the page.
+
+One or more supporting analyses are unavailable. Safe backend results remain visible; failed analyses are not presented as successful evidence.
+
+RCA analysis
+Analysis incident: INC-1004. Results remain separate from the selected incident preview.
+
+RCA status: ok
+
+RCA category
+
+packet_loss
+
+Probable root cause
+
+Fiber signal degradation on interface Gi0/2
+
+Explanation
+
+The incident follows a documented progression: RX optical power degraded over 40 minutes, triggering threshold alarms, followed by physical layer CRC errors and packet loss. This is corroborated by historical evidence (HIST-013) and symptom patterns defined in SOP-PKT-001.
+
+Rationale
+
+The incident is caused by progressive physical degradation of the optical signal on the backhaul interface Gi0/2. Declining RX power led to CRC errors and packet loss, matching established patterns for fiber span degradation.
+
+Evidence sufficiency: sufficient
+
+Qualitative model confidence (display only): high
+
+Missing evidence
+
+• KPI analysis for optical power trends failed and is missing.
+
+Alternative causes
+
+• Faulty transceiver (Possible, but historical pattern favors general fiber degradation).
+
+• Dirty connector (Highly likely, and is a sub-component of fiber degradation).
+
+• Congestion (Unlikely; symptoms include physical CRC errors not typical of congestion).
+
+Contradictions
+
+No contradictions were reported; this is not proof of agreement.
+
+Source-agent reasoning and historical comparisons
+
+Evidence-support confidence
+Evidence-support policy score — not a calibrated probability of correctness.
+
+Confidence source: calculated
+
+Evidence-support policy score
+0.70
+Confidence explanation
+
+Frozen weighted binary evidence policy; not a calibrated probability. 0 RCA contradiction(s), capped penalty 0. KPI agreement uses the existing interpretation of the reported alarm.
+
+Routing and human review
+Deterministic incident severity: P2
+
+Review requirement: escalated_review
+
+Matched routing rule: 2
+
+Routing reason
+
+Severity P2 requires escalated review.
+
+Human review is paused and awaiting an explicit reviewer action.
+
+Evidence and citations
+ID resolution confirms that a source exists in this run. It does not verify that its text supports the agent's claim. Source text below is an excerpt; review the underlying evidence and missing details.
+
+Backend validation dropped 1 citation reference(s). They are not presented as supporting evidence.
+
+Retrieved RAG sources from this run
+
+Recommendation
+Recommendation revision: 0
+
+Recommendation status: failed. No usable remediation is presented.
+
+Human review
+Analysis is paused. Choose a reviewer action and explicitly submit it to continue.
+
+Recommendation revisions completed: 0 / 2.
+
+Request Revision requires nonblank feedback and may dispatch a Recommendation request using the same remaining live allowance. Alarm, KPI, Historical and RCA work is retained.
+
+Reviewer action
+
+
+Approve
+
+
+Reject
+
+
+Request Revision
+
+Reviewer feedback
+
+
+
+
+Live Gemini request usage
+
+Physical requests: 9 / 9 · Local cap denials: 1
+
+Known input tokens: 6664; known output tokens: 1721. Unknown or failed-request usage is not estimated. This is not a billing statement.
+
+Token accounting is incomplete; failed requests may have unreported usage.
+
+Request allowance exhausted. Results may be incomplete; review remains mandatory. No additional live request will be dispatched.
+
+Only recorded HTTP codes are shown. A missing code does not establish a provider status. Local cap denials are not HTTP failure
