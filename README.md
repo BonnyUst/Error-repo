@@ -1,5 +1,22 @@
- File "<string>", line 1
-    from sentence_transformers import SentenceTransformer; SentenceTransformer(all-MiniLM-L6-v2, local_files_only=True); print(MODEL
-                                                                                                                              ^
-SyntaxError: '(' was never closed
+
+>> 
+
+Path                                                            LineNumber Line                                               
+----                                                            ---------- ----                                               
+C:\Users\308231\Desktop\TELECOM PROJECT\src\config.py                  169 EMBEDDING_MODEL_NAME = "sentence-transformers/al...
+C:\Users\308231\Desktop\TELECOM PROJECT\src\rag\build_index.py          20 from src.rag.embeddings import get_embedding_model 
+C:\Users\308231\Desktop\TELECOM PROJECT\src\rag\build_index.py          27     embedding_model: str                           
+C:\Users\308231\Desktop\TELECOM PROJECT\src\rag\build_index.py          38     model = get_embedding_model()                  
+C:\Users\308231\Desktop\TELECOM PROJECT\src\rag\build_index.py          64         embedding_model=model.model_name,          
+C:\Users\308231\Desktop\TELECOM PROJECT\src\rag\build_index.py          76     print(f"embedding model     : {result.embedd...
+C:\Users\308231\Desktop\TELECOM PROJECT\src\rag\embeddings.py           13 from src.config import EMBEDDING_BATCH_SIZE, EMB...
+C:\Users\308231\Desktop\TELECOM PROJECT\src\rag\embeddings.py           66     def __init__(self, model_name: str = EMBEDDI...
+C:\Users\308231\Desktop\TELECOM PROJECT\src\rag\embeddings.py          106 def get_embedding_model() -> EmbeddingModel:       
+C:\Users\308231\Desktop\TELECOM PROJECT\src\rag\retriever.py            19 thresholding, NOT a probability or confidence pe...
+C:\Users\308231\Desktop\TELECOM PROJECT\src\rag\retriever.py            39 from src.rag.embeddings import get_embedding_model 
+C:\Users\308231\Desktop\TELECOM PROJECT\src\rag\retriever.py           171     embedding = get_embedding_model().embed_quer...
+C:\Users\308231\Desktop\TELECOM PROJECT\src\rag\vector_store.py         21     EMBEDDING_MODEL_NAME,                          
+C:\Users\308231\Desktop\TELECOM PROJECT\src\rag\vector_store.py        136             "embedding_model": EMBEDDING_MODEL_N...
+
+
 (.venv) PS C:\Users\308231\Desktop\TELECOM PROJECT> 
