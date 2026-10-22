@@ -1,0 +1,686 @@
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\pp_lcnet\image_processing_pp_lcnet.py", line 24, in <module>
+    import torchvision.transforms.v2.functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:13.419 Examining the path of transformers.models.pp_ocrv5_server_det.image_processing_pp_ocrv5_server_det_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\pp_ocrv5_server_det\image_processing_pp_ocrv5_server_det.py", line 25, in <module>
+    import torchvision.transforms.v2.functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:13.434 Examining the path of transformers.models.pp_ocrv5_server_rec.image_processing_pp_ocrv5_server_rec_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\pp_ocrv5_server_rec\image_processing_pp_ocrv5_server_rec.py", line 24, in <module>
+    import torchvision.transforms.v2.functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:13.447 Examining the path of transformers.models.pp_ocrv6_small_rec.image_processing_pp_ocrv6_small_rec_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\pp_ocrv6_small_rec\image_processing_pp_ocrv6_small_rec.py", line 24, in <module>
+    import torchvision.transforms.v2.functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:13.483 Examining the path of transformers.models.prompt_depth_anything.image_processing_prompt_depth_anything_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\prompt_depth_anything\image_processing_prompt_depth_anything.py", line 42, in <module>
+    from torchvision.transforms.v2 import functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:13.567 Examining the path of transformers.models.qwen2_vl.image_processing_qwen2_vl_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\qwen2_vl\image_processing_qwen2_vl.py", line 26, in <module>
+    from torchvision.transforms.v2 import functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:13.591 Examining the path of transformers.models.rf_detr.image_processing_rf_detr_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\rf_detr\image_processing_rf_detr.py", line 26, in <module>
+    from torchvision.transforms.v2 import functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:13.641 Examining the path of transformers.models.rt_detr.image_processing_rt_detr_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\rt_detr\image_processing_rt_detr.py", line 24, in <module>
+    from torchvision.transforms.v2 import functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:13.688 Examining the path of transformers.models.sam.image_processing_sam_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\sam\image_processing_sam.py", line 25, in <module>
+    from torchvision.ops.boxes import batched_nms
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:13.707 Examining the path of transformers.models.sam2.image_processing_sam2_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\sam2\image_processing_sam2.py", line 28, in <module>
+    from torchvision.ops.boxes import batched_nms
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:13.736 Examining the path of transformers.models.sam3.image_processing_sam3_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\sam3\image_processing_sam3.py", line 30, in <module>
+    from torchvision.ops.boxes import batched_nms
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:13.759 Examining the path of transformers.models.sapiens2.image_processing_sapiens2_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\sapiens2\image_processing_sapiens2.py", line 23, in <module>
+    from torchvision.transforms.v2 import functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:13.794 Examining the path of transformers.models.segformer.image_processing_segformer_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\segformer\image_processing_segformer.py", line 25, in <module>
+    import torchvision.transforms.v2.functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:13.831 Examining the path of transformers.models.seggpt.image_processing_seggpt_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\seggpt\image_processing_seggpt.py", line 20, in <module>
+    from torchvision.transforms.v2 import functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:13.896 Examining the path of transformers.models.siglip2.image_processing_siglip2_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\siglip2\image_processing_siglip2.py", line 17, in <module>
+    from torchvision.transforms.v2 import functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:13.909 Examining the path of transformers.models.slanext.image_processing_slanext_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\slanext\image_processing_slanext.py", line 23, in <module>
+    import torchvision.transforms.v2.functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:13.951 Examining the path of transformers.models.smolvlm.image_processing_smolvlm_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\smolvlm\image_processing_smolvlm.py", line 27, in <module>
+    from torchvision.transforms.v2 import functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:14.034 Examining the path of transformers.models.superglue.image_processing_superglue_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\superglue\image_processing_superglue.py", line 47, in <module>
+    from torchvision.transforms.v2 import functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:14.053 Examining the path of transformers.models.superpoint.image_processing_superpoint_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\superpoint\image_processing_superpoint.py", line 31, in <module>
+    from torchvision.transforms.v2 import functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:14.095 Examining the path of transformers.models.swin2sr.image_processing_swin2sr_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\swin2sr\image_processing_swin2sr.py", line 17, in <module>
+    from torchvision.transforms.v2 import functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:14.128 Examining the path of transformers.models.textnet.image_processing_textnet_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\textnet\image_processing_textnet.py", line 17, in <module>
+    from torchvision.transforms.v2 import functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:14.197 Examining the path of transformers.models.tvp.image_processing_tvp_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\tvp\image_processing_tvp.py", line 17, in <module>
+    from torchvision.transforms.v2 import functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:14.219 Examining the path of transformers.models.unlimited_ocr.image_processing_unlimited_ocr_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\unlimited_ocr\image_processing_unlimited_ocr.py", line 24, in <module>
+    from torchvision.transforms.v2 import functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:14.291 Examining the path of transformers.models.video_llama_3.image_processing_video_llama_3_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\video_llama_3\image_processing_video_llama_3.py", line 25, in <module>
+    import torchvision.transforms.v2.functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:14.346 Examining the path of transformers.models.videomae.image_processing_videomae_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\videomae\image_processing_videomae.py", line 17, in <module>
+    from torchvision.transforms.v2 import functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:14.377 Examining the path of transformers.models.vilt.image_processing_vilt_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\vilt\image_processing_vilt.py", line 17, in <module>
+    from torchvision.transforms.v2 import functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:14.427 Examining the path of transformers.models.vitmatte.image_processing_vitmatte_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\vitmatte\image_processing_vitmatte.py", line 19, in <module>
+    from torchvision.transforms.v2 import functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:14.470 Examining the path of transformers.models.vitpose.image_processing_vitpose_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\vitpose\image_processing_vitpose.py", line 22, in <module>
+    from torchvision.transforms.v2 import functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:14.549 Examining the path of transformers.models.yolos.image_processing_yolos_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\yolos\image_processing_yolos.py", line 12, in <module>
+    from torchvision.io import read_image
+ModuleNotFoundError: No module named 'torchvision'
+2026-10-22 19:38:14.618 Examining the path of transformers.models.zoedepth.image_processing_zoedepth_fast raised:
+Traceback (most recent call last):
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 338, in get_module_paths
+    potential_paths = extract_paths(module)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 325, in <lambda>
+    if hasattr(m, "__path__")
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\__init__.py", line 815, in _getattr
+    return getattr(importlib.import_module(target, __name__), name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\308231\Desktop\TELECOM PROJECT\.venv\Lib\site-packages\transformers\models\zoedepth\image_processing_zoedepth.py", line 43, in <module>
+    from torchvision.transforms.v2 import functional as tvF
+ModuleNotFoundError: No module named 'torchvision'
