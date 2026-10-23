@@ -1,0 +1,422 @@
+Explore incident information, alarm chronology and KPI observations from the synthetic dataset. Three validated showcases also support the complete offline analysis workflow.
+
+Live Gemini Mode: actual supplied synthetic evidence and local RAG are sent to the selected model only after consent and Run Analysis. No authored answers are supplied to live inference. Human review remains mandatory.
+
+Recommendation live inference remains unverified. Schema validity and resolved citation IDs do not establish semantic groundedness; inspect claims, uncertainty and remediation safety before deciding.
+
+Incident summary
+INC-1004 — Optical backhaul degradation — Offline showcase
+
+Device: RTR-W-022-01 · Region: WEST · Service impact: partial_outage
+
+Analysis workflow
+Incident Selected → Analysis Running → Human Review → Completed
+
+Current state: Human Review
+
+Run Analysis uses the selected live model and pauses for human review. Failed operations are not replayed by rerunning the page.
+
+RCA analysis
+Analysis incident: INC-1004. Results remain separate from the selected incident preview.
+
+RCA status: ok
+
+RCA category
+
+packet_loss
+
+Probable root cause
+
+Physical fiber degradation leading to low optical power on the Gi0/2 interface.
+
+Explanation
+
+The incident is caused by a physical layer issue where the RX optical power on the backhaul interface Gi0/2 dropped from -9.8 dBm to -24.6 dBm. This signal degradation resulted in increasing input CRC errors, packet loss, and FEC uncorrectable errors, consistent with known fiber or connector failure signatures.
+
+Rationale
+
+The router RTR-W-022-01 experienced a progressive decline in optical power on interface Gi0/2, which directly caused CRC errors, packet loss, and FEC uncorrectable errors. This pattern aligns perfectly with physical layer degradation of the fiber optic link.
+
+Evidence sufficiency: sufficient
+
+Qualitative model confidence (display only): high
+
+Missing evidence
+
+No missing-evidence details were reported; this does not prove completeness.
+
+Alternative causes
+
+• Faulty SFP module: Possible, but fiber/connector degradation is more common given the gradual trend.
+
+• Broadcast storm: Unlikely as there are no reports of CPU spikes or abnormal traffic patterns inconsistent with the signal loss.
+
+• MTU Mismatch: Unlikely as MTU issues typically don't cause steady degradation of RX optical power.
+
+Contradictions
+
+No contradictions were reported; this is not proof of agreement.
+
+Source-agent reasoning and historical comparisons
+
+Live agent reasoning comes from the selected Gemini model. Historical matches are actual local records.
+
+Alarm analysis — ok
+
+Rationale
+
+The degradation of optical power on interface Gi0/2 of router RTR-W-022-01 triggered sequential alarms leading to packet loss and high CRC error rates. This indicates a physical layer issue causing service impact.
+
+Alarm pattern
+
+Progressive optical power degradation on interface Gi0/2 leading to physical layer errors and packet loss.
+
+KPI analysis — ok
+
+Rationale
+
+The optical power on the interface shows a significant decline beginning at 11:20:00, leading to a critical degradation of 14.8 dB. This physical layer issue correlates directly with a sharp rise in packet loss and a decrease in throughput. The latency remains within healthy limits, indicating the issue is specific to link signal quality.
+
+KPI trend
+
+The network interface is experiencing rapid degradation of signal strength resulting in increasing packet loss and declining throughput.
+
+Network impact
+
+Partial service outage affecting 3000 customers due to interface instability.
+
+Historical analysis — ok
+
+Rationale
+
+The current incident shows a clear trend of declining optical power on a backhaul interface, which strongly aligns with the fiber degradation profile observed in the highest scoring historical match.
+
+Historical summary
+
+Historical records indicate that the combination of packet loss and downward trending RX optical power is highly consistent with fiber degradation or connector issues. HIST-013 confirms that cleaning connectors or replacing fiber spans is the effective resolution for this pattern.
+
+Historical similarity ranks prior cases; it does not establish this incident's cause.
+
+Evidence-support confidence
+Evidence-support policy score — not a calibrated probability of correctness.
+
+Confidence source: calculated
+
+Evidence-support policy score
+1.00
+Confidence explanation
+
+Frozen weighted binary evidence policy; not a calibrated probability. 0 RCA contradiction(s), capped penalty 0. KPI agreement uses the existing interpretation of the reported alarm.
+
+Routing and human review
+Deterministic incident severity: P2
+
+Review requirement: escalated_review
+
+Matched routing rule: 2
+
+Routing reason
+
+Severity P2 requires escalated review.
+
+Human review is paused and awaiting an explicit reviewer action.
+
+Evidence and citations
+ID resolution confirms that a source exists in this run. It does not verify that its text supports the agent's claim. Source text below is an excerpt; review the underlying evidence and missing details.
+
+Backend validation dropped 1 citation reference(s). They are not presented as supporting evidence.
+
+Retrieved RAG sources from this run
+
+These are actual chunks returned by this run's local RAG retrieval, not authored fixture document excerpts.
+
+Retrieval relevance is a ranking signal, not RCA confidence or proof of claim support.
+
+SOP-PKT-001#c001
+
+Document: SOP-PKT-001; section: Symptoms; title: Backhaul Packet Loss and Fiber Degradation
+
+Retrieved rank: 1; relevance: 0.7141; above retrieval threshold: True
+
+- Alarm OPT-PWR-001: transceiver RX optical power below warning threshold, often repeating as the trend continues.
+- Alarm OPT-PWR-002: transceiver RX optical power below alarm threshold.
+- Alarm PKT-LOSS-003: backhaul interface input CRC errors exceeding threshold, or packet loss above 5 percent threshold.
+- Process event: FEC uncorrectable errors incrementing on the interface.
+- KPI optical_power_dbm trending steadily downward over tens of minutes, for example from -10 dBm to -25 dBm.
+- KPI packet_loss_pct rising in step with the optical power decline.
+SOP-PKT-001#c006
+
+Document: SOP-PKT-001; section: Verification; title: Backhaul Packet Loss and Fiber Degradation
+
+Retrieved rank: 2; relevance: 0.6785; above retrieval threshold: True
+
+- optical_power_dbm is back within the healthy range in REF-KPI-001 and flat over 30 minutes.
+- packet_loss_pct is below 0.1 percent and CRC counters are not incrementing.
+- OPT-PWR and PKT-LOSS alarms have cleared.
+SOP-LINK-001#c002
+
+Document: SOP-LINK-001; section: Symptoms; title: Link Flapping and Optical Transceiver Faults
+
+Retrieved rank: 3; relevance: 0.5597; above retrieval threshold: True
+
+OSPF-ADJ-001 or similar adjacency loss on the same interface as a consequence of the flapping.
+- KPI optical_power_dbm falling steadily toward -20 dBm or worse, or fluctuating by several dB between readings.
+- KPI packet_loss_pct rising sharply and throughput_mbps dropping toward zero during each down period.
+REF-ALARM-001#c002
+
+Document: REF-ALARM-001; section: Symptoms; title: Alarm Code Reference
+
+Retrieved rank: 4; relevance: 0.5364; above retrieval threshold: True
+
+power below warning threshold.
+- OPT-PWR-002: transceiver RX optical power below alarm threshold.
+- PKT-LOSS-003: input CRC errors or packet loss above threshold on a backhaul or customer interface.
+- STP-TCN-001: spanning-tree topology change notification following a port state change.
+Power family, handled by SOP-PWR-001 and SOP-PWR-002.
+- PWR-MAINS-002: AC mains input failure on a feed.
+- PWR-GEN-001: backup generator failed to auto-start.
+- PWR-GEN-002: backup generator auto-start successful.
+- PWR-BATT-001: battery capacity below 50 percent or battery discharge in progress.
+SOP-QOS-001#c007
+
+Document: SOP-QOS-001; section: Verification; title: QoS Policy Faults and Change Rollback
+
+Retrieved rank: 5; relevance: 0.5209; above retrieval threshold: True
+
+- packet_loss_pct is below 0.1 percent and latency_ms is back to baseline.
+- QOS-DROP, PKT-LOSS, and LAT-SLA alarms have cleared.
+- Per-class drop counters are not incrementing on any priority class.
+Recommendation
+Recommendation revision: 0
+
+Recommendation rationale
+
+Evidence points to physical fiber degradation based on the RX optical power decline from -9.8 dBm to -24.6 dBm on interface Gi0/2 of RTR-W-022-01. SOP-PKT-001 confirms this signature aligns with fiber or connector failure, requiring field intervention.
+
+Step 1 — risk: low
+
+Dispatch field technician to inspect physical fiber connections and cable integrity for interface Gi0/2 at SITE-W-022.
+
+Verification
+
+Confirm physical connections are seated and fiber is free of damage or excessive bending.
+
+Rollback or caution
+
+Ensure appropriate safety measures for optical fiber handling.
+
+Requires change approval: False
+
+SOP reference: SOP-PKT-001#c001
+
+Overall verification
+
+• Verify optical_power_dbm is back within the healthy range and stable over 30 minutes.
+
+• Confirm packet_loss_pct is below 0.1 percent and CRC counters are no longer incrementing.
+
+• Verify that OPT-PWR and PKT-LOSS alarms have cleared from the management system.
+
+Recommendations are analysis output; this dashboard does not execute network changes.
+
+Human review
+Analysis is paused. Choose a reviewer action and explicitly submit it to continue.
+
+Recommendation revisions completed: 0 / 2.
+
+Request Revision requires nonblank feedback and may dispatch a Recommendation request using the same remaining live allowance. Alarm, KPI, Historical and RCA work is retained.
+
+Reviewer action
+
+
+Approve
+
+
+Reject
+
+
+Request Revision
+
+Reviewer feedback
+
+
+
+
+Live Gemini request usage
+
+Physical requests: 6 / 9 · Local cap denials: 0
+
+Known input tokens: 11766; known output tokens: 2925. Unknown or failed-request usage is not estimated. This is not a billing statement.
+
+Token accounting is incomplete; failed requests may have unreported usage.
+
+Only recorded HTTP codes are shown. A missing code does not establish a provider status. Local cap denials are not HTTP failures.
+
+Technical execution details
+
+Incident alarms and KPI evidence
+
+Selected incident
+Source: existing synthetic incident and network-log CSV files.
+
+Alarms and events
+Showing 9 of 9 alarm/event rows. Evidence IDs match the existing Alarm Agent digest.
+
+KPI evidence
+Statistics, trends and threshold bands come from the existing deterministic KPI helper. This preview makes no LLM calls. Change is the latest value minus the first value.
+
+Optical power is logarithmic: observations are in dBm, while Change is a difference in dB. Percentage change of dBm values is not applicable.
+
+K01 · Latency (ms) · RTR-W-022-01
+
+11 AM
+11:01
+11:02
+11:03
+11:04
+11:05
+11:06
+11:07
+11:08
+11:09
+11:10
+11:11
+11:12
+11:13
+11:14
+11:15
+11:16
+11:17
+11:18
+11:19
+11:20
+11:21
+11:22
+11:23
+11:24
+11:25
+11:26
+11:27
+11:28
+11:29
+11:30
+11:31
+11:32
+11:33
+11:34
+11:35
+11:36
+11:37
+11:38
+11:39
+11:40
+Timestamp
+0
+2
+4
+6
+8
+10
+Value
+K02 · Optical power (dBm) · RTR-W-022-01
+
+11 AM
+11:01
+11:02
+11:03
+11:04
+11:05
+11:06
+11:07
+11:08
+11:09
+11:10
+11:11
+11:12
+11:13
+11:14
+11:15
+11:16
+11:17
+11:18
+11:19
+11:20
+11:21
+11:22
+11:23
+11:24
+11:25
+11:26
+11:27
+11:28
+11:29
+11:30
+11:31
+11:32
+11:33
+11:34
+11:35
+11:36
+11:37
+11:38
+11:39
+11:40
+Timestamp
+−25
+−20
+−15
+−10
+−5
+0
+Value
+K03 · Packet loss (%) · RTR-W-022-01
+
+11 AM
+11:01
+11:02
+11:03
+11:04
+11:05
+11:06
+11:07
+11:08
+11:09
+11:10
+11:11
+11:12
+11:13
+11:14
+11:15
+11:16
+11:17
+11:18
+11:19
+11:20
+11:21
+11:22
+11:23
+11:24
+11:25
+11:26
+11:27
+11:28
+11:29
+11:30
+11:31
+11:32
+11:33
+11:34
+11:35
+11:36
+11:37
+11:38
+11:39
+11:40
+Timestamp
+0
+2
+4
+6
+8
+Value
+K04 · Throughput (Mbps) · RTR-W-022-01
